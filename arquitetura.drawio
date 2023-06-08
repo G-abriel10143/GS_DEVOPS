@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-06-08T01:53:51.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="j15JILgMVZwaKdqZZx9C" version="21.3.2" type="device">
+  <diagram name="Página-1" id="kV0fMQtrf87Gsk5r1b3j">
+    <mxGraphModel dx="1050" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OPjSCKw-D670g2_MmrAs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPjSCKw-D670g2_MmrAs-3" target="OPjSCKw-D670g2_MmrAs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPjSCKw-D670g2_MmrAs-3" target="OPjSCKw-D670g2_MmrAs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-3" value="Aplicativo de Distribuição" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-4" value="Sistema de&amp;nbsp;Composteira" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPjSCKw-D670g2_MmrAs-5" target="OPjSCKw-D670g2_MmrAs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-5" value=" Tecnologia em Python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPjSCKw-D670g2_MmrAs-6" target="OPjSCKw-D670g2_MmrAs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-6" value="Melhoria na&amp;nbsp;Cultivo e Distribuição" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-7" value="Sistema de&amp;nbsp; Compostagem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPjSCKw-D670g2_MmrAs-8" target="OPjSCKw-D670g2_MmrAs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-8" value=" Sistema de&amp;nbsp;Recompensa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OPjSCKw-D670g2_MmrAs-9" target="OPjSCKw-D670g2_MmrAs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPjSCKw-D670g2_MmrAs-9" value="Extração de Informações&amp;nbsp; Cultivo e para Construir&amp;nbsp; Distribuição&amp;nbsp; Gráfico/Dashboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

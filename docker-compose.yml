@@ -1,0 +1,33 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: psilvaroot
+      MYSQL_DATABASE: DB_AGROTOP_API
+    volumes:
+      - dbdata:/var/lib/mysql
+    ports:
+      - "3307:3306"
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/DB_AGROTOP_API?createDatabaseIfNotExist=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: psilvaroot
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_SHOW_SQL: "true"
+      JAVA_TOOL_OPTIONS: "-Djava.security.egd=file:/dev/./urandom"
+  phpmyadmin:
+    image: phpmyadmin
+    ports:
+      - 8000:80
+volumes:
+  dbdata:
