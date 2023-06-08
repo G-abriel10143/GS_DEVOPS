@@ -24,7 +24,7 @@ Em resumo, acredito que reduzir o desperdício de recursos e aprimorar o cultivo
 
 # Arquitetura
 
-<img align="center" alt="Diagrama-UML" src="ArquiteturaAlimentech.jpeg">
+![image](https://github.com/G-abriel10143/GS_DEVOPS/assets/101301397/e6b21053-c9b5-4357-bb63-1ecc07c9f8f2)
 
 ---
 
